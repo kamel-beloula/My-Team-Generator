@@ -16,8 +16,7 @@ const employees = [];
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 //structure of the code provided by the class instructor
 
-inquirer.prompt([{
-    console.log(`Start building your software engineering team`);
+    console.log(`Start building your software engineering team`),
     //manager questions
     inquirer.prompt([
         {
@@ -42,7 +41,7 @@ inquirer.prompt([{
         },
     ])
 
-}]).then(response => {
+    .then(response => {
     console.log(`Manager's entry complete. Please provide the informations for the rest of the team members`)
     // populate manager info
     const manager = new Manager(
@@ -53,14 +52,23 @@ inquirer.prompt([{
     );
     employees.push(manager);
     console.log(employees);
+
     // promptForNexEmployee ()
     promptForNextEmployee()
 })
 
 const promptForNextEmployee = () => {
     inquirer.prompt([{
-        // choice of 3
-    }]).then(response => {
+        type: 'list',
+        message: 'Please choose the next employee role',
+        name: 'addOrFinish',
+        choices: [
+            "Add an engineer",
+            "Add an intern",
+            "Finish building the team",
+        ]}
+    ])
+        .then(response => {
         // if engineer
         //    promptForEngineer
         // else if intern
