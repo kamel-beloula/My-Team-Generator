@@ -50,7 +50,7 @@ console.log(`Start building your software engineering team`),
         response.name,
         response.id,
         response.email,
-        response.officeNumber
+        response.officeNumber,
       );
       employees.push(manager);
 
@@ -116,7 +116,7 @@ const promptForEngineer = () => {
         response.name,
         response.id,
         response.email,
-        response.github
+        response.github,
       );
       // add new engineer to employees array
       employees.push(engineer);
@@ -152,8 +152,19 @@ const promptForIntern = () => {
           },
         ])
     .then((response) => {
+        // populate engineer info
+      const intern = new Intern(
+        response.name,
+        response.id,
+        response.email,
+        response.school,
+      );
       // add new intern to employees array
-      // promptForNextEmployee
+      employees.push(intern);
+      console.log(employees);
+
+      // promptForNexEmployee ()
+      promptForNextEmployee();
     });
 };
 
