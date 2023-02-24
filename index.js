@@ -86,10 +86,30 @@ const promptForNextEmployee = () => {
 }
 
 const promptForEngineer = () => {
-    inquirer.prompt([{
+    inquirer.prompt([
         //engineer questions
-        
-    }]).then(response => {
+        {
+            type: "input",
+            name: "name",
+            message: "Please enter their name:",
+        },
+        {
+            type: "input",
+            name: "id",
+            message: "Please enter their ID:",
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Pease enter their email address:",
+        },
+        {
+            type: "input",
+            name: "github",
+            message: "Please their github user name:",
+        },
+
+    ]).then(response => {
         // add new engineer to employees array
         // promptForNextEmployee
     })
