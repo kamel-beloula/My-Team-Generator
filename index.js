@@ -92,22 +92,22 @@ const promptForEngineer = () => {
       {
         type: "input",
         name: "name",
-        message: "Please enter their name:",
+        message: "Please enter the engineer's name:",
       },
       {
         type: "input",
         name: "id",
-        message: "Please enter their ID:",
+        message: "Please enter the engineer's ID:",
       },
       {
         type: "input",
         name: "email",
-        message: "Pease enter their email address:",
+        message: "Pease enter the engineer's email address:",
       },
       {
         type: "input",
         name: "github",
-        message: "Please their github user name:",
+        message: "Please the engineer's github user name:",
       },
     ])
     .then((response) => {
@@ -119,7 +119,7 @@ const promptForEngineer = () => {
         response.github
       );
       // add new engineer to employees array
-      employees.push(emgineer);
+      employees.push(engineer);
       console.log(employees);
 
       // promptForNexEmployee ()
@@ -130,10 +130,27 @@ const promptForEngineer = () => {
 const promptForIntern = () => {
   inquirer
     .prompt([
-      {
-        //intern questions
-      },
-    ])
+        {
+            type: "input",
+            name: "name",
+            message: "Please enter the intern's name:",
+          },
+          {
+            type: "input",
+            name: "id",
+            message: "Please enter the intern's ID:",
+          },
+          {
+            type: "input",
+            name: "email",
+            message: "Pease enter the intern's email address:",
+          },
+          {
+            type: "input",
+            name: "school",
+            message: "Please the intern's school name:",
+          },
+        ])
     .then((response) => {
       // add new intern to employees array
       // promptForNextEmployee
