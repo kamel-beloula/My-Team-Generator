@@ -61,26 +61,34 @@ const promptForNextEmployee = () => {
     inquirer.prompt([{
         type: 'list',
         message: 'Please choose the next employee role',
-        name: 'addOrFinish',
+        name: 'addMemberOrFinish',
         choices: [
-            "Add an engineer",
-            "Add an intern",
+            "Engineer",
+            "Intern",
             "Finish building the team",
         ]}
     ])
         .then(response => {
         // if engineer
-        //    promptForEngineer
+        if(response.addMemberOrFinish === "Engineer"){
+        // promptForEngineer
+            promptForEngineer();
         // else if intern
-        //    promptForIntern
+        }else if(response.addMemberOrFinish === "Intern"){
+        // promptForIntern
+            promptForIntern();
         // else
-        //    use the functionality from page-template to generate the team
+        }else{
+        //use the functionality from page-template to generate the team
+            buildPage();
+        }
     })
 }
 
 const promptForEngineer = () => {
     inquirer.prompt([{
         //engineer questions
+        
     }]).then(response => {
         // add new engineer to employees array
         // promptForNextEmployee
