@@ -10,14 +10,14 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./src/page-template.js");
 const Employee = require("./lib/Employee");
-const EmployeeArray = [];
+const employees = [];
 
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 //structure of the code provided by the class instructor
 
 inquirer.prompt([{
-    console.log(`Start building your software team`);
+    console.log(`Start building your software engineering team`);
     //manager questions
     inquirer.prompt([
         {
@@ -50,8 +50,11 @@ inquirer.prompt([{
         response.id,
         response.email,
         response.officeNumber,
-    )
+    );
+    employees.push(manager);
+    console.log(employees);
     // promptForNexEmployee ()
+    promptForNextEmployee()
 })
 
 const promptForNextEmployee = () => {
