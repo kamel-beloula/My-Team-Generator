@@ -80,7 +80,11 @@ const promptForNextEmployee = () => {
         // else
       } else {
         //use the functionality from page-template to generate the team
-        buildPage();
+        // buildPage();
+        fs.writeFile(outputPath, render(employees), err => 
+            err ? 
+            console.error(err) : 
+            console.log('You have succesfully created your team page !'))
       }
     });
 };
@@ -168,6 +172,11 @@ const promptForIntern = () => {
     });
 };
 
-const buildPage = () => {
-  render(employees);
-};
+// buildPage(data){
+//     fs.writeFile(outputPath, data, err => 
+//         err ? 
+//         console.error(err) : 
+//         console.log('You have succesfully created your team page !'))
+//     }
+
+    
