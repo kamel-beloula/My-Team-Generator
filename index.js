@@ -169,5 +169,5 @@ const promptForIntern = () => {
 };
 
 const buildPage = () => {
-  // render(myArrayOfTeamMembers)
+  render(employees);
 };
