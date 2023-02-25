@@ -1,37 +1,45 @@
+/* provided at class */
+/* with few modifications */
+
 .team-heading {
-    background-color: #e84855;
-    color: #ffffff;
-  }
-  
-  .team-area {
-    max-width: 1000px;
-    margin: 3em auto;
-    flex-wrap: wrap;
-  }
-  
-  .employee-card {
-    margin: 1em;
-    max-width: 280px;
-    width: 90%;
-    min-height: 22rem;
-    background-color: #007bff;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
-    border: none;
-  }
-  
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #f6f7f8;
-  }
-  
-  .list-group-item {
-    color: #000000;
-    text-decoration: none;
-  }
-  
+  background-image: url(./images/jumbotronn.jpg);
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.team-area {
+  max-width: 1000px;
+  margin: 3em auto;
+  flex-wrap: wrap;
+}
+
+.employee-card {
+  margin: 1em;
+  max-width: 280px;
+  width: 90%;
+  min-height: 22rem;
+  background-color: #0b1633;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+  border: none;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f6f7f8;
+}
+
+.list-group-item {
+  color: #000000;
+  text-decoration: none;
+}
