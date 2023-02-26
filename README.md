@@ -11,7 +11,7 @@ This application is designed to function as a Team generator. The user utilizes 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Link to deployed app](#link-to-deployed-app)
+- [Link to the deployed app](#link-to-the-deployed-app)
 - [team sample screenshot](#screenshot)
 - [License](#license)
 - [Credits](#credits)
