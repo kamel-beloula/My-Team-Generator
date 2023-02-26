@@ -32,11 +32,11 @@ In order to use this application. You must cd into the My-team-genreator resposi
 
 ## Link to the deployed app
 
-Live website [here](https://kamel-beloula.github.io/ReadMe-Generator/). Since there is no index.html, the link displays the ReadMe file.
+Live website [here](https://kamel-beloula.github.io/My-Team-Generator/). Since there is no index.html, the link displays the ReadMe file.
 
 ## Screenshot
 Team.html Sample
-![deployed application screenshot](./src/images/Screenshot%20My%20Team.png)
+![deployed application screenshot](./src/images/Screenshot%202023-02-26%20at%2016-26-29%20My%20Team.png)
 
 ## License
 
@@ -47,6 +47,7 @@ Read more about it at https://opensource.org/licenses/MIT.
 ## Credits
 
 Used classroom activities for code inspiration (edX).
+https://www.freecodecamp.org/news/how-to-format-code-in-markdown/
 
 ## Tests
 
