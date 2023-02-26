@@ -122,7 +122,6 @@ const promptForEngineer = () => {
       );
       // add new engineer to employees array
       employees.push(engineer);
-      console.log(employees);
 
       // promptForNexEmployee ()
       promptForNextEmployee();
@@ -163,7 +162,6 @@ const promptForIntern = () => {
       );
       // add new intern to employees array
       employees.push(intern);
-      console.log(employees);
 
       // promptForNexEmployee ()
       promptForNextEmployee();
@@ -174,5 +172,5 @@ const buildPage = () => {
     fs.writeFile(outputPath, render(employees), err => 
             err ? 
             console.error(err) : 
-            console.log('Your team page is ready in the output folder !'))
+            console.log('Congratulations! Your team file is ready to view in the output folder'))
     }
