@@ -20,7 +20,7 @@ This application is designed to function as a Team generator. The user utilizes 
 
 ## Installation
 
-In order to install this project, you must login to GitHub and go to https://github.com/kamel-beloula/ReadMe-Generator. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
+In order to install this project, you must login to GitHub and go to https://github.com/kamel-beloula/My-Team-Generator. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
 
 Using SSH/HTML Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. Once you have cloned the git readme-generator repo, cd into the repo and type "open ." to open the folder which contains all files used for the project.
 
