@@ -33,13 +33,10 @@ In order to use this application. You must cd into the My-team-genreator resposi
 
 Live website [here](https://kamel-beloula.github.io/My-Team-Generator/). Since there is no index.html, the link displays the ReadMe file.
 
-<<<<<<< HEAD
 ## Screenshot
-Team.html Sample
-![deployed application screenshot](./src/images/Screenshot%202023-02-26%20at%2016-26-29%20My%20Team.png)
+Team.html Sample:
+![deployed application screenshot sample](./src/images/Screenshot.png)
 
-=======
->>>>>>> parent of 79709d6 (added a screenshot for a team.html sample)
 ## License
 
 Copyright (c) [2023][kamel.beloula]
@@ -53,7 +50,9 @@ https://www.freecodecamp.org/news/how-to-format-code-in-markdown/
 
 ## Tests
 
-In order to test the code, you must make sure you have installed "*jest*". If you typed in `npm install` above, it should have downloaded both inquirer (for the prompts) and jest (for tests). You must cd into the my-team-generator repository via your CLI. Once there you will type in 'npm test'. The tests will initialize and will tell you if the tests have passed or failed. If jest did not get installed properly type in `npm install jest` to try and download it.
+In order to test the code, you must make sure you have installed "*jest*". If you typed in `npm install` above, it should have downloaded both inquirer (for the prompts) and jest (for tests). You must cd into the my-team-generator repository via your CLI. Once there you will type in 'npm test'. The tests will initialize and will tell you if the tests have passed or failed. If jest did not get installed properly type in `npm install jest` to try and download it.<br>Tests pass screenshot:
+![tests pass screenshot](./src/images/tests%20passed.PNG)
+
 
 ## Questions
 
