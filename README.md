@@ -12,6 +12,7 @@ This application is designed to function as a Team generator. The user utilizes 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Link to deployed app](#link-to-deployed-app)
+- [team sample screenshot](#screenshot)
 - [License](#license)
 - [Credits](#credits)
 - [Tests](#tests)
@@ -34,6 +35,7 @@ In order to use this application. You must cd into the My-team-genreator resposi
 Live website [here](https://kamel-beloula.github.io/My-Team-Generator/). Since there is no index.html, the link displays the ReadMe file.
 
 ## Screenshot
+
 Team.html Sample:
 ![deployed application screenshot sample](./src/images/Screenshot.png)
 
