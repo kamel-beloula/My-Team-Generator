@@ -46,7 +46,7 @@ Read more about it at https://opensource.org/licenses/MIT.
 
 ## Credits
 
-Used classroom activities for code inspiration (edX).
+Used classroom activities for code inspiration (edX).<br>
 https://www.freecodecamp.org/news/how-to-format-code-in-markdown/
 
 ## Tests
