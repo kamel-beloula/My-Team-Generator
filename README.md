@@ -1,11 +1,11 @@
-# Team-Generator
+# My-Team-Generator
 
 ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
 
 ## Description
 
-This application is designed to function as a Team generator. The user utilizes a CLI (terminal or gitbash) to create a team. The team is a software engineering one, composed of a Manager and other team members who can be engineers of inters. The user is prompted to fill in the details of the teams members the CLI and a "team" HTML file will be created within this repository.
+This application is designed to function as a Team generator. The user utilizes a CLI (terminal or gitbash) to create a team HTML file. The team is a software engineering one, composed of a Manager and other team members who can be engineers of interns. The user is prompted to fill in the details of the teams members in the CLI and a "team" HTML file will be created within this repository.
 
 ## Table of Contents
 
@@ -27,9 +27,9 @@ Using Download ZIP: Click on Download Zip. Locate the file and double click it t
 
 ## Usage
 
-In order to use this application. You must cd into the My-team-genreator respository via your CLI. Once there, you will need to type in 'npm install' in order to install inquirer. If inquirer does not get installed, the prompts will not work. After that is installed, you type in 'node index.js' to initialize the questions. Answer the following prompts and the "team" file should be created in the "output" folder.
+In order to use this application. You must cd into the My-team-genreator respository via your CLI. Once there, you will need to type in `npm install` in order to install "*inquirer*". If inquirer does not get installed, the prompts will not work. After that is installed, you type in `node index.js` to initialize the questions. Answer the following prompts and the "*team*" file should be created in the "*output*" folder.
 
-## Link to deployed app
+## Link to the deployed app
 
 Live website [here](https://kamel-beloula.github.io/ReadMe-Generator/). Since there is no index.html, the link displays the ReadMe file.
 
@@ -42,13 +42,13 @@ Read more about it at https://opensource.org/licenses/MIT.
 ## Credits
 
 Used classroom activities for code inspiration (edX).
-index.js structure and css provided.
 
 ## Tests
 
-Run 
+In order to test the code, you must make sure you have installed "*jest*". If you typed in `npm install` above, it should have downloaded both inquirer (for the prompts) and jest (for tests). You must cd into the my-team-generator repository via your CLI. Once there you will type in 'npm test'. The tests will initialize and will tell you if the tests have passed or failed. If jest did not get installed properly type in `npm install jest` to try and download it.
 
 ## Questions
 
-If you have any additional questions please contact me at kamel.solo@live.com
-GitHub: https://github.com/kamel-beloula
+If you have any additional questions please contact me at 
+<br> eMail: kamel.solo@live.com 
+<br> GitHub: https://github.com/kamel-beloula
